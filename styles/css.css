@@ -1,0 +1,181 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:"Source Sans Pro"
+}
+
+#PageTitle {
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 14px;
+  padding:10px 30px;
+  font-weight:normal;
+  background: rgba(52, 52, 52, 0.12);
+}
+
+#Return {
+  white-space: pre;
+  font-family:monospace;
+  padding:20px 10px 10px 30px;
+  position:fixed;
+  right:0;
+  left:40%;
+  top:0;
+  bottom:0;
+  overflow:auto;
+}
+
+#ObjectsJson { display:none; }
+
+#Edit {
+  width:40%;
+  background: #568684;
+  font-size:14px;
+  color:#777;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  overflow:auto;
+}
+
+.Section {
+}
+
+.Subsection {
+  padding: 20px 30px;
+  margin: 0;
+  /* background: #E2E2E2; */
+  /* border-radius: 3px; */
+  /* border: solid 1px #D6D6D6; */
+  border-top: solid 1px rgba(0, 0, 0, 0.08);
+}
+
+.Subsection:first-of-type {
+  margin-top:0;
+}
+
+.Subsection-Title {
+  font-size:14px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color: white;
+}
+
+.JS-AddEntitySelect {
+  float:right
+}
+
+.JS-AddEntity {
+  background:#CDCDCD;
+  padding:5px 8px;
+  border-radius:3px;
+  margin-bottom:1px;
+  cursor:pointer
+}
+
+.JS-AddEntity:hover {
+  background:#898989;
+  color:white;
+}
+
+.ObjectJson-Details div {
+  border-radius: 50px;
+  cursor:pointer;
+}
+
+.JS-RemoveEntity {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  height: 29px;
+  color: #AAA;
+  width: 29px;
+  font-size: 0;
+  background: url(../images/PictoCross.svg) no-repeat 7px 7px / 15px auto;
+}
+
+.JS-RemoveEntity:hover {
+  background-color:tomato
+}
+
+.JS-EditEntity {
+  position: absolute;
+  left: 8px;
+  top: 7px;
+  height: 29px;
+  color: #AAA;
+  width: 29px;
+  font-size: 0;
+  background: url(../images/PictoEdit.svg) no-repeat 7px 7px / 15px auto;
+}
+
+.JS-EditEntity:hover {
+  background-color:#232323
+}
+
+.ObjectJson {
+  padding:10px 15px;
+  background: rgba(0, 0, 0, 0.21);
+  border-radius:3px;
+  margin-top:5px;
+  color:white;
+  position:relative;
+}
+
+.ObjectJson-Title {
+  font-size: 17px;
+  padding-left: 27px;
+}
+
+.ObjectJson-Details {
+  font-size:12px;
+}
+
+.ObjectJson-Details div {
+  display:inline-block
+}
+
+.ObjectJson-Json {
+  display: none;
+  white-space: pre;
+  font-family: monospace;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  margin: 10px -10px -5px -10px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #424242;
+  outline:none;
+}
+
+.ObjectJson-Json.show {
+  display:block;
+}
+
+#Generate {
+  margin:20px 30px;
+  background: rgba(255, 255, 255, 0.88);
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:16px;
+  color: rgba(0, 0, 0, 0.47);
+  border-radius:3px;
+  font-weight: bold;
+  padding:20px;
+  font-family: "Source Sans Pro";
+  cursor:pointer
+}
+
+.Input-Template {
+  padding:5px 8px;
+  border:none;
+  background:none;
+  width:100%;
+  outline:none;
+  font-size:12px;
+  margin:3px -8px;
+  background:rgba(0,0,0,.2);
+  border-radius:3px
+}

@@ -1,0 +1,11 @@
+{
+  "object":"Nav",
+  "params":{
+    "content":"",
+    "anchor":1,
+    "icon":"",
+    "enabled":true,
+    "color":"",
+    "backgroundColor":""
+  }
+}

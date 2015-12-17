@@ -1,0 +1,10 @@
+{
+  "object":"Grid",
+  "params":{
+    "id":"",
+    "cols":2,
+    "rows":2,
+    "snap":false,
+    "alignItems":"center"
+  }
+}
