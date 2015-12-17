@@ -101,6 +101,7 @@
           <option value="Image">Image</option>
           <option value="Sound">Sound</option>
           <option value="Video">Video</option>
+          <option value="Reward">Reward</option>
           <option value="Grid">Grid</option>
         </select>
         

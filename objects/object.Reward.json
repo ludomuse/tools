@@ -1,0 +1,11 @@
+{
+  "object":"Reward",
+  "params":{
+    "content":"",
+    "icon":"",
+    "color":"",
+    "backgroundColor":"",
+    "backgroundImage":"",
+    "enabled":false
+  }
+}
